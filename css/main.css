@@ -1,0 +1,52 @@
+
+/* RESETANDO A PÁGINA */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: cornflowerblue;
+}
+
+header h1{
+    padding: 5px 0;
+    margin-bottom: -10px;
+    color: #FFF;
+    text-shadow: 2px 2px 5px #757575;
+}
+
+header h3{
+    padding: 5px 0 15px;
+    
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.accordion-button{
+    padding: 8px;
+    border: 1px solid lightgray;
+}
+
+.anunciantes img{
+    margin-bottom: 15px;
+}
+
+.anunciantes{
+    text-align: center;
+}
+
+.alert{
+    color: green;
+}
